@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +30,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#hero {
+  background-color: cyan;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.area {
+  background-color: cyan;
+}
+
+#welcome {
+  margin-top: 80px;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+#myname {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+#mypic {
+  object-fit: cover;
+  margin-top: 80px;
+}
+
+#prog {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+  
+}
+
+#pb1 {
+  width: 25%;
+}
+
+#pb2 {
+  width: 50%;
+}
+
+#pb3 {
+  width: 75%;
 }
