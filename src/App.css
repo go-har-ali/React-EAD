@@ -47,20 +47,28 @@
   background-color: cyan;
 }
 
+#hello {
+  margin-top: 90px;
+  color: lime;
+}
+
 #welcome {
-  margin-top: 80px;
   font-size: 80px;
   font-weight: 400;
+  color: yellow;
 }
 
 #myname {
-  font-size: 80px;
-  font-weight: 700;
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 400;
+  color: yellow;
+  /* margin-bottom: 200px; */
 }
 
 #mypic {
   object-fit: cover;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 #prog {
@@ -71,7 +79,7 @@
 }
 
 #pb1 {
-  width: 25%;
+  width: 65%;
 }
 
 #pb2 {
@@ -80,4 +88,36 @@
 
 #pb3 {
   width: 75%;
+}
+
+#pb4 {
+  width: 90%;
+}
+
+#pb5 {
+  width: 85%;
+}
+
+.bgi {
+  background-image: url('../public/assets/herobgupdated.jpg');
+  background-size: cover;
+  
+}
+
+.btn {
+  margin-top: 50px;
+  margin-left: 145px;
+  margin-bottom: 100px;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
 }
