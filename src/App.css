@@ -101,7 +101,6 @@
 .bgi {
   background-image: url('../public/assets/herobgupdated.jpg');
   background-size: cover;
-  
 }
 
 .btn {
@@ -120,4 +119,13 @@
 
 .inner:hover img {
   transform: scale(1.5);
+}
+
+#baar {
+  background-color: rgb(51, 52, 65);
+}
+
+.bgi {
+  background-image: url('../public/assets/contact.svg');
+  background-size: cover;
 }

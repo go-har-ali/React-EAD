@@ -1,5 +1,5 @@
 import Project from "./Project";
-var React = require("react");
+import React from "react";
 //import pic from "../assets/pic.jpg";
 function HeroSection() {
     return (
@@ -14,7 +14,7 @@ function HeroSection() {
           </div>
           <div class="picture col-lg-6 mb-5" id="col2">
             <div class="container">
-              <img src="../assets/edited.png" id="mypic" class="img-circle rounded-circle" width="300" height="300" alt="Picture"/>
+              <img src="../assets/edited.png" id="mypic" class="img-circle rounded-circle" width="300" height="300" alt="Pic"/>
             </div>
           </div>
         </div>
@@ -75,6 +75,7 @@ function HeroSection() {
       
       <div className="skills">
         <h1 class="text-center">My Skills</h1>
+        <br />
         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Dolore, quod cumque ea enim dolorem dolor quo culpa animi quasi,
             ipsum soluta itaque et <br />repudiandae quia facilis veniam! Aperiam, incidunt ex.</p>
       </div>
@@ -85,6 +86,43 @@ function HeroSection() {
         </div>
       </div>
       
+{/* <!-- Contact Section --> */}
+
+        <div class="section-header text-center pb-5">
+          <h2>Contact US</h2>
+          <br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+          <br /> elit animi, impedit.</p>
+        </div>
+
+        <section id="contact" class="contact section-padding">
+          <div class="container">
+            <div class="row m-0">
+              <div class="col-md-12 p-0 pt-4 pb-4">
+                <form action="#" class="bg-light p-4.m-auto">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" required placeholder="Your Full Name"/>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" required placeholder="Your Email Here"/>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                          <textarea rows="3" required class="form-control" placeholder="Your Query Here"></textarea>
+                        </div>
+                    </div>
+                      <button class="btn btn-warning btn-lg btn-block mt-3 mx-auto">Send Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
     </>
     );
   }
